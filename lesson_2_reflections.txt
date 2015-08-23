@@ -36,4 +36,10 @@ affecting the original files. Branches could also be used to keep things
 organized in the course of development or while working with others. The master
 branch could be a production quality branch that always works. Then there could
 be a development branch where active work is taking place on your project.
-There could also be some experimental or unique feature branches. 
+There could also be some experimental or unique feature branches.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help by showing where each branch stems from, the parents of each
+commit in a branch, and whether any commit is unreachable. 
