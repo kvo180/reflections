@@ -13,4 +13,14 @@ The staging area is an intermediate area between the working directory and the
 repository where files are stored before they are committed. Files that are
 initially in the working directory are added to the staging area, then are
 committed when the commit command is ran. This gives the user the flexibility
-to add and remove files as necessary before a commit needs to be made. 
+to add and remove files as necessary before a commit needs to be made.
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+The staging area can be used to add files that are only relevant to the logical
+change being made. Also, using git diff and git diff --staged, the user can
+compare the changes being made between the working directory and the staging
+area, or between the staging area and the most recent commit, in order to verify
+that the commit will only be for one logical change. 
