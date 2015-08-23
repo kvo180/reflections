@@ -32,4 +32,8 @@ organized? How would branches help?
 Branches would be helpful when the user wants to implement changes or features
 without affecting the main project files. Branches allow the user to deviate
 from the master branch so they can freely makes changes without worrying about
-affecting the original files. 
+affecting the original files. Branches could also be used to keep things
+organized in the course of development or while working with others. The master
+branch could be a production quality branch that always works. Then there could
+be a development branch where active work is taking place on your project.
+There could also be some experimental or unique feature branches. 
