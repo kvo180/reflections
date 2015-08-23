@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, an empty repository is created (or, if a
+repository already exists, the repository is reinitialized). This step is
+necessary because it creates the hidden .git file that Git uses to recognize
+whether a directory is a repository or not.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is an intermediate area between the working directory and the
+repository where files are stored before they are committed. Files that are
+initially in the working directory are added to the staging area, then are
+committed when the commit command is ran. This gives the user the flexibility
+to add and remove files as necessary before a commit needs to be made. 
