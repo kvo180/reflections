@@ -23,4 +23,13 @@ The staging area can be used to add files that are only relevant to the logical
 change being made. Also, using git diff and git diff --staged, the user can
 compare the changes being made between the working directory and the staging
 area, or between the staging area and the most recent commit, in order to verify
-that the commit will only be for one logical change. 
+that the commit will only be for one logical change.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches would be helpful when the user wants to implement changes or features
+without affecting the main project files. Branches allow the user to deviate
+from the master branch so they can freely makes changes without worrying about
+affecting the original files. 
