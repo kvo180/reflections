@@ -42,4 +42,17 @@ There could also be some experimental or unique feature branches.
 How do the diagrams help you visualize the branch structure?
 
 Diagrams help by showing where each branch stems from, the parents of each
-commit in a branch, and whether any commit is unreachable. 
+commit in a branch, and whether any commit is unreachable.
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+When two branches are merged together, Git automatically interprets whether
+code was deleted or added and keeps the added code and discards the deleted
+code. The branch that was checked out at the time or the merge becomes the
+label that the new merged branch label points to. The merge results in a new
+commit that has the latest commits from both branches as its parents, therefore
+it has access to all the commits in both branches. We represent it in the
+diagram as a visual representation to keep track of where branches were created
+and what commits can be accessed. 
