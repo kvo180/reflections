@@ -1,1 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
 
+A remote repository would be useful when the user wants to share their work publicly 
+on GitHub, or when multiple users are collaborating on one project. Keeping all work 
+locally would only be ideal when the user wants to keep all their work private, or 
+when the project isn't ready to be publicly shared. 
