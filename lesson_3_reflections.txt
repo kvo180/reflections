@@ -26,3 +26,8 @@ A branch is simply a label that points to a commit. A branch is only created wit
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit of having a copy of the last known state of the remote stored locally is that it allows the user to fetch any updates from the remote without overwriting any updates that they made locally. This allows the user to compare the remote's updates to the local updates.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborating without Git/GitHub would be much harder and much more prone to miscommunication or errors due to lack organization. Git/GitHub allows users working together to make changes individually, compare changes made by each user, and merge changes together to the master branch. Without Git/GitHub, it would be very easy to lose track of who made which changes or what current version the main project is supposed to be on. 
