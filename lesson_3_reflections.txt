@@ -30,4 +30,9 @@ The benefit of having a copy of the last known state of the remote stored locall
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-Collaborating without Git/GitHub would be much harder and much more prone to miscommunication or errors due to lack organization. Git/GitHub allows users working together to make changes individually, compare changes made by each user, and merge changes together to the master branch. Without Git/GitHub, it would be very easy to lose track of who made which changes or what current version the main project is supposed to be on. 
+Collaborating without Git/GitHub would be much harder and much more prone to miscommunication or errors due to lack organization. Git/GitHub allows users working together to make changes individually, compare changes made by each user, and merge changes together to the master branch. Without Git/GitHub, it would be very easy to lose track of who made which changes or what current version the main project is supposed to be on.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+It's a good idea to make changes on a separate branch when working collaboratively with others. This allows a user to make their own changes on their separate branch and propose it to others for review without affecting the master branch. Once the changes have been reviewed, the separate branch can be merged with the master to form an up-to-date master. This is advantageous compared to making changes directly on the master because it allows all users to be aware of the changes being made to master and to give their input on the changes before master is actually updated. 
